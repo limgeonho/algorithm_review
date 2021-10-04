@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6c0c28d-a1f8-4f59-86a3-36617e5c92d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LCS/1958_LCS3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LCS/7476_최대공통증가수열.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LCS/9251_LCS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LCS/__13711_LCS4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LCS/__9640_ModifiedLCS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/크루스칼/1197_최소스패닝트리.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/크루스칼/16398_행성연결.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/크루스칼/21924_도시건설.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/크루스칼/7044_badcowtractors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/크루스칼/9372_상근이의여행.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LCS/__13711_LCS4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="330">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
@@ -29,13 +29,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LCS/9251_LCS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="45">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/냅색/4781_사탕가게.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -45,9 +45,54 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/크루스칼/9372_상근이의여행.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/크루스칼/1197_최소스패닝트리.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/크루스칼/21924_도시건설.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/크루스칼/16398_행성연결.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="566">
+              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/크루스칼/7044_badcowtractors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-347">
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LCS/__9640_ModifiedLCS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="255">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
@@ -78,12 +123,21 @@
         <option value="$PROJECT_DIR$/LCS/2612_DNA유사도.py" />
         <option value="$PROJECT_DIR$/LCS/7476_최대공통증가수열.py" />
         <option value="$PROJECT_DIR$/LCS/13711_LCS4.py" />
+        <option value="$PROJECT_DIR$/크루스칼/9372_상근이의여행.py" />
+        <option value="$PROJECT_DIR$/크루스칼/1865_웜홀.py" />
+        <option value="$PROJECT_DIR$/크루스칼/22116_창영이와퇴근.py" />
+        <option value="$PROJECT_DIR$/크루스칼/1197_최소스패닝트리.py" />
+        <option value="$PROJECT_DIR$/크루스칼/7044_badcowtractors.py" />
+        <option value="$PROJECT_DIR$/크루스칼/21924_도시건설.py" />
+        <option value="$PROJECT_DIR$/크루스칼/16398_행성연결.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1283" />
-    <option name="height" value="1002" />
+    <option name="x" value="1911" />
+    <option name="y" value="-3" />
+    <option name="width" value="1298" />
+    <option name="height" value="1408" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -116,6 +170,11 @@
               <item name="복습용" type="462c0819:PsiDirectoryNode" />
               <item name="다익스트라" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="복습용" type="b2602c69:ProjectViewProjectNode" />
+              <item name="복습용" type="462c0819:PsiDirectoryNode" />
+              <item name="크루스칼" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -134,8 +193,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.13711_LCS4">
-    <configuration name="13711_LCS4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.16398_행성연결">
+    <configuration name="1197_최소스패닝트리" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="복습용" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +202,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LCS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/크루스칼" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\임건호\Desktop\알고리즘\복습용\LCS\__13711_LCS4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/크루스칼/1197_최소스패닝트리.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +215,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1958_LCS3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="16398_행성연결" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="복습용" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,11 +223,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LCS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/크루스칼" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LCS/1958_LCS3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/크루스칼/16398_행성연결.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,7 +236,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2612_DNA유사도" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="21924_도시건설" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="복습용" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,11 +244,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LCS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/크루스칼" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LCS/2612_DNA유사도.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/크루스칼/21924_도시건설.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,7 +257,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7476_최대공통증가수열" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="7044_badcowtractors" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="복습용" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,11 +265,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LCS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/크루스칼" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LCS/7476_최대공통증가수열.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/크루스칼/7044_badcowtractors.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,7 +278,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9640_ModifiedLCS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="9372_상근이의여행" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="복습용" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,11 +286,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LCS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/크루스칼" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\임건호\Desktop\알고리즘\복습용\LCS\__9640_ModifiedLCS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/크루스칼/9372_상근이의여행.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.13711_LCS4" />
-        <item itemvalue="Python.2612_DNA유사도" />
-        <item itemvalue="Python.9640_ModifiedLCS" />
-        <item itemvalue="Python.7476_최대공통증가수열" />
-        <item itemvalue="Python.1958_LCS3" />
+        <item itemvalue="Python.16398_행성연결" />
+        <item itemvalue="Python.21924_도시건설" />
+        <item itemvalue="Python.7044_badcowtractors" />
+        <item itemvalue="Python.1197_최소스패닝트리" />
+        <item itemvalue="Python.9372_상근이의여행" />
       </list>
     </recent_temporary>
   </component>
@@ -264,14 +323,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1026" height="801" extended-state="0" />
+    <frame x="1913" y="-1" width="1038" height="1126" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21840243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21578422" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47005987" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3162135" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,31 +433,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LCS/2612_DNA유사도.py" />
+    <entry file="file://$PROJECT_DIR$/LCS/__13711_LCS4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LCS/9251_LCS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LCS/__9640_ModifiedLCS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="255">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LCS/__13711_LCS4.py">
+    <entry file="file://$PROJECT_DIR$/크루스칼/1865_웜홀.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LCS/2612_DNA유사도.py">
+    <entry file="file://$PROJECT_DIR$/크루스칼/9372_상근이의여행.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="336">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/크루스칼/7044_badcowtractors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-347">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -405,6 +480,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/크루스칼/1197_최소스패닝트리.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/크루스칼/21924_도시건설.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="41" column="14" lean-forward="true" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/크루스칼/16398_행성연결.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
         </state>
       </provider>
     </entry>
