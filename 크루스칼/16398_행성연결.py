@@ -41,3 +41,4 @@ for edge in edges:
         res += cost
 
 print(res)
+
