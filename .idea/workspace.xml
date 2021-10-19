@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6c0c28d-a1f8-4f59-86a3-36617e5c92d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/기본기/review1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BFS/문제list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/재귀/14889_스타트와링크.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/재귀/15661_링크와스타트.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/기본기/review1.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/review1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/재귀/9095_123더하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/재귀/9095_123더하기.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/재귀/1182_부분수열의합.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -43,8 +47,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/재귀/9095_123더하기.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BFS/문제list.txt">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/기본기/review1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -52,26 +74,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/재귀/1759_암호만들기.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="15">
               <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/기본기/review1.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/재귀/14889_스타트와링크.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="368">
+              <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/재귀/14501_퇴사.py">
+        <entry file="file://$PROJECT_DIR$/재귀/15661_링크와스타트.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="68" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="68" />
+            <state relative-caret-position="266">
+              <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -112,18 +134,21 @@
         <option value="$PROJECT_DIR$/재귀/6603_로또.py" />
         <option value="$PROJECT_DIR$/재귀/1182_부분수열의합.py" />
         <option value="$PROJECT_DIR$/재귀/14225_부분수열의합.py" />
-        <option value="$PROJECT_DIR$/재귀/9095_123더하기.py" />
         <option value="$PROJECT_DIR$/재귀/14501_퇴사.py" />
         <option value="$PROJECT_DIR$/재귀/1759_암호만들기.py" />
+        <option value="$PROJECT_DIR$/재귀/9095_123더하기.py" />
+        <option value="$PROJECT_DIR$/BFS/문제list.txt" />
+        <option value="$PROJECT_DIR$/재귀/14889_스타트와링크.py" />
+        <option value="$PROJECT_DIR$/재귀/15661_링크와스타트.py" />
         <option value="$PROJECT_DIR$/기본기/review1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="545" />
-    <option name="y" value="211" />
-    <option name="width" value="1300" />
-    <option name="height" value="1040" />
+    <option name="x" value="1912" />
+    <option name="y" value="6" />
+    <option name="width" value="1297" />
+    <option name="height" value="1398" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -133,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,12 +168,23 @@
             <path>
               <item name="복습용" type="b2602c69:ProjectViewProjectNode" />
               <item name="복습용" type="462c0819:PsiDirectoryNode" />
+              <item name="BFS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="복습용" type="b2602c69:ProjectViewProjectNode" />
+              <item name="복습용" type="462c0819:PsiDirectoryNode" />
+              <item name="기본기" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="복습용" type="b2602c69:ProjectViewProjectNode" />
+              <item name="복습용" type="462c0819:PsiDirectoryNode" />
               <item name="재귀" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,7 +203,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.review1">
-    <configuration name="14225_부분수열의합" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="14889_스타트와링크" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="복습용" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,7 +215,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/재귀/14225_부분수열의합.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/재귀/14889_스타트와링크.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +224,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14501_퇴사" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="15661_링크와스타트" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="복습용" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,7 +236,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/재귀/14501_퇴사.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/재귀/15661_링크와스타트.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,10 +311,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.review1" />
-        <item itemvalue="Python.1759_암호만들기" />
-        <item itemvalue="Python.14501_퇴사" />
+        <item itemvalue="Python.15661_링크와스타트" />
+        <item itemvalue="Python.14889_스타트와링크" />
         <item itemvalue="Python.9095_123더하기" />
-        <item itemvalue="Python.14225_부분수열의합" />
+        <item itemvalue="Python.1759_암호만들기" />
       </list>
     </recent_temporary>
   </component>
@@ -297,14 +332,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1913" y="-1" width="2062" height="1126" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14276272" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1145679" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19858156" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36757302" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -406,13 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BFS/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/다익스트라/1446_지름길.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -485,24 +514,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/재귀/1182_부분수열의합.py">
+    <entry file="file://$PROJECT_DIR$/BFS/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="525">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/재귀/14225_부분수열의합.py">
+    <entry file="file://$PROJECT_DIR$/BFS/문제list.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/재귀/9095_123더하기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -513,17 +542,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/재귀/15661_링크와스타트.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/재귀/1759_암호만들기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="15">
           <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/재귀/14889_스타트와링크.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/기본기/review1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="210">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/재귀/14225_부분수열의합.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/재귀/1182_부분수열의합.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>

@@ -39,4 +39,18 @@ def comb(L, start):
 
 # comb(0, 0)
 
+# ====================================
+# 부분집합
+
+def powerset(L, ps):
+    if L == n:
+        if not ps:
+            return
+        print(ps)
+        return
+    powerset(L+1, ps + [array[L]])
+    powerset(L+1, ps)
+
+powerset(0, [])
+
 
