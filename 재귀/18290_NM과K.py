@@ -4,30 +4,54 @@
 dx = [-1, 0, 1, 0]
 dy = [0, 1, 0, -1]
 
+# def go(L, start, total):
+#     global answer
+#     if L == k:
+#         if total > answer:
+#             answer = total
+#         return
+#     # 2차원을 1차원으로...
+#     for i in range(start, m*n):
+#         x = i//m
+#         y = i%m
+#
+#         if visited[x][y]:
+#             continue
+#
+#         flag = True
+#         for j in range(4):
+#             nx = x + dx[j]
+#             ny = y + dy[j]
+#             if 0<=nx<n and 0<=ny<m:
+#                 if visited[nx][ny]:
+#                     flag = False
+#         if flag:
+#             visited[x][y] = True
+#             go(L+1, i+1, total + array[x][y])
+#             visited[x][y] = False
+
 def go(L, start, total):
     global answer
     if L == k:
         if total > answer:
             answer = total
         return
-    # 2차원을 1차원으로...
-    for i in range(start, m*n):
-        x = i//m
-        y = i%m
+
+    for i in range(start, n*m):
+        x = i // m
+        y = i % m
 
         if visited[x][y]:
             continue
-            
-        flag = True
         for j in range(4):
             nx = x + dx[j]
             ny = y + dy[j]
             if 0<=nx<n and 0<=ny<m:
                 if visited[nx][ny]:
-                    flag = False
-        if flag:
+                    break
+        else:
             visited[x][y] = True
-            go(L+1, x*m+y+1, total + array[x][y])
+            go(L+1, i+1, total + array[x][y])
             visited[x][y] = False
 
 n, m, k = map(int, input().split())
