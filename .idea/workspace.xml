@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6c0c28d-a1f8-4f59-86a3-36617e5c92d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BFS/13549_숨바꼭질3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BFS/13913_숨바꼭질4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BFS/1697_숨바꼭질.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BFS/7562_나이트의이동.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DFS/1260_DFS와BFS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/기본기/review7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BFS/11724_연결요소의개수.py" beforeDir="false" afterPath="$PROJECT_DIR$/DFS/11724_연결요소의개수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BFS/13023_ABCDE.py" beforeDir="false" afterPath="$PROJECT_DIR$/DFS/13023_ABCDE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/기본기/review7.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/review7.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,21 +16,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BFS/13549_숨바꼭질3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/기본기/review7.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BFS/13913_숨바꼭질4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="456">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
@@ -51,7 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/크루스칼/7044_badcowtractors.py" />
         <option value="$PROJECT_DIR$/크루스칼/21924_도시건설.py" />
         <option value="$PROJECT_DIR$/크루스칼/16398_행성연결.py" />
         <option value="$PROJECT_DIR$/BFS/test.py" />
@@ -102,14 +98,15 @@
         <option value="$PROJECT_DIR$/BFS/13913_숨바꼭질3.py" />
         <option value="$PROJECT_DIR$/BFS/13913_숨바꼭질4.py" />
         <option value="$PROJECT_DIR$/BFS/13549_숨바꼭질3.py" />
+        <option value="$PROJECT_DIR$/기본기/review7.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1911" />
-    <option name="y" value="-3" />
-    <option name="width" value="1298" />
-    <option name="height" value="1408" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1912" />
+    <option name="y" value="6" />
+    <option name="width" value="1297" />
+    <option name="height" value="1398" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -119,6 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,7 +159,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,28 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.13549_숨바꼭질3">
-    <configuration name="1260_DFS와BFS" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="복습용" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DFS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DFS/1260_DFS와BFS.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.review7">
     <configuration name="13549_숨바꼭질3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="복습용" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -292,13 +268,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="review7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="복습용" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기본기" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기본기/review7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.review7" />
         <item itemvalue="Python.13549_숨바꼭질3" />
         <item itemvalue="Python.13913_숨바꼭질4" />
         <item itemvalue="Python.1697_숨바꼭질" />
         <item itemvalue="Python.7562_나이트의이동" />
-        <item itemvalue="Python.1260_DFS와BFS" />
       </list>
     </recent_temporary>
   </component>
@@ -316,15 +313,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="-1" width="1038" height="1126" extended-state="1" />
-    <editor active="true" />
+    <frame x="1914" y="6" width="1037" height="1118" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2007992" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24068479" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2426396" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997986" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -518,9 +514,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BFS/문제list.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BFS/문제list.txt" />
     <entry file="file://$PROJECT_DIR$/BFS/3차원_BFS/2206_벽부수고이동하기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -665,22 +659,26 @@
     <entry file="file://$PROJECT_DIR$/LCS/9251_LCS.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/BFS/13549_숨바꼭질3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BFS/13913_숨바꼭질4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="456">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BFS/13549_숨바꼭질3.py">
+    <entry file="file://$PROJECT_DIR$/기본기/review7.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="549">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/기본기/review7.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
