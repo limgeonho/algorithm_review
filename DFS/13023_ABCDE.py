@@ -23,6 +23,7 @@ for _ in range(m):
     relation[a].append(b)
     relation[b].append(a)
 
+print(relation)
 
 for i in range(n):
     dfs(i, 1)
