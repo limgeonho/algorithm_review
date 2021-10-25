@@ -53,7 +53,7 @@
 
 array = list(map(int, input().split()))
 def next_perm(arr):
-    i = len(arr) -1
+    i = len(arr) - 1
     while i > 0 and arr[i-1] >= arr[i]:
         i -= 1
 
