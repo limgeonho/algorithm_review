@@ -80,6 +80,8 @@ def bfs(a, b, c):
                         q.append((x, y, z))
         day = not day
     return -1
+
+
 n, m, k = map(int, input().split())
 board = [list(map(int, input())) for _ in range(n)]
 visited = [[[0] * (k+1) for _ in range(m)] for _ in range(n)]

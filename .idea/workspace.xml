@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6c0c28d-a1f8-4f59-86a3-36617e5c92d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BFS/3차원_BFS/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BFS/16236_아기상어(2).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BFS/3차원_BFS/14442_벽부수고이동하기_2(2).py" beforeDir="false" afterPath="$PROJECT_DIR$/BFS/3차원_BFS/14442_벽부수고이동하기_2(2).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BFS/16236_아기상어.py" beforeDir="false" afterPath="$PROJECT_DIR$/BFS/16236_아기상어.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BFS/3차원_BFS/16933_벽부수고이동하기_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/BFS/3차원_BFS/16933_벽부수고이동하기_3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +45,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BFS/3차원_BFS/16933_벽부수고이동하기_3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1482">
-              <caret line="77" column="53" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
+            <state relative-caret-position="292">
+              <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BFS/16954_움직이는미로탈출.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BFS/16236_아기상어.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="857">
+              <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BFS/16236_아기상어(2).py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="57" lean-forward="true" selection-end-line="83" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BFS/17142_연구소3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -62,14 +98,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/재귀/N과M/15655_6.py" />
         <option value="$PROJECT_DIR$/재귀/N과M/15656_7.py" />
         <option value="$PROJECT_DIR$/재귀/N과M/15657_8.py" />
         <option value="$PROJECT_DIR$/기본기/review3.py" />
         <option value="$PROJECT_DIR$/기본기/review4.py" />
         <option value="$PROJECT_DIR$/BFS/2178_미로찾기.py" />
         <option value="$PROJECT_DIR$/BFS/2667_단지번호붙이기.py" />
-        <option value="$PROJECT_DIR$/BFS/16236_아기상어.py" />
         <option value="$PROJECT_DIR$/BFS/7576_토마토.py" />
         <option value="$PROJECT_DIR$/기본기/review5.py" />
         <option value="$PROJECT_DIR$/BFS/2206_벽부수고이동하기.py" />
@@ -113,14 +147,16 @@
         <option value="$PROJECT_DIR$/BFS/3차원_BFS/14442_벽부수고이동하기_2(2).py" />
         <option value="$PROJECT_DIR$/BFS/3차원_BFS/test.py" />
         <option value="$PROJECT_DIR$/BFS/3차원_BFS/16933_벽부수고이동하기_3.py" />
+        <option value="$PROJECT_DIR$/BFS/16236_아기상어.py" />
+        <option value="$PROJECT_DIR$/BFS/16236_아기상어(2).py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1911" />
-    <option name="y" value="-3" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="2416" />
+    <option name="y" value="-27" />
     <option name="width" value="1298" />
-    <option name="height" value="1408" />
+    <option name="height" value="1399" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -211,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.16933_벽부수고이동하기_3">
+  <component name="RunManager" selected="Python.16236_아기상어(2)">
     <configuration name="14442_벽부수고이동하기_2(2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="복습용" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,6 +269,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="16236_아기상어" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="복습용" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BFS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BFS/16236_아기상어.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="16236_아기상어(2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="복습용" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BFS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BFS/16236_아기상어(2).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="16933_벽부수고이동하기_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="복습용" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,48 +324,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BFS/3차원_BFS/16933_벽부수고이동하기_3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="16954_움직이는미로탈출" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="복습용" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BFS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BFS/16954_움직이는미로탈출.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="review12" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="복습용" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기본기" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기본기/review12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -319,11 +355,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.16236_아기상어(2)" />
+        <item itemvalue="Python.16236_아기상어" />
         <item itemvalue="Python.16933_벽부수고이동하기_3" />
         <item itemvalue="Python.14442_벽부수고이동하기_2(2)" />
         <item itemvalue="Python.review13" />
-        <item itemvalue="Python.16954_움직이는미로탈출" />
-        <item itemvalue="Python.review12" />
       </list>
     </recent_temporary>
   </component>
@@ -341,10 +377,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="-1" width="2062" height="1126" extended-state="6" />
+    <frame x="1913" y="-1" width="2062" height="1126" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12938271" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11308642" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -375,20 +411,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BFS/2178_미로찾기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BFS/2667_단지번호붙이기.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BFS/7576_토마토.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -611,13 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BFS/16954_움직이는미로탈출.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BFS/17141_연구소2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -629,13 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BFS/17142_연구소3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -693,8 +701,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BFS/3차원_BFS/16933_벽부수고이동하기_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="77" column="53" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
+        <state relative-caret-position="292">
+          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BFS/16954_움직이는미로탈출.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BFS/17142_연구소3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BFS/16236_아기상어.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="857">
+          <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BFS/16236_아기상어(2).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" lean-forward="true" selection-end-line="83" selection-end-column="13" />
         </state>
       </provider>
     </entry>
