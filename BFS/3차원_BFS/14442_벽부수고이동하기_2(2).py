@@ -4,7 +4,7 @@
 #
 # dx = [-1, 0, 1, 0]
 # dy = [0, 1, 0, -1]
-
+#
 # def bfs(a, b, c):
 #     q = deque()
 #     q.append((a, b, c))
@@ -12,9 +12,9 @@
 #
 #     while q:
 #         x, y, z = q.popleft()
-#         for v in visited:
-#             print(v)
-#         print()
+#         # for v in visited:
+#         #     print(v)
+#         # print()
 #         for l in range(4):
 #             nx = x + dx[l]
 #             ny = y + dy[l]
@@ -53,6 +53,7 @@ def bfs(a, b, c):
 
     while q:
         p = len(q)
+        # print(p)
         for _ in range(p):
             x, y, z, dist = q.popleft()
             if x == n-1 and y == m-1:

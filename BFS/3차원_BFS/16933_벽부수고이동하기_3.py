@@ -59,8 +59,7 @@ def bfs(a, b, c):
             # for v in visited:
             #     print(v)
             # print()
-            if x == n-1 and y == m-1:
-                return visited[-1][-1]
+
             for l in range(4):
                 nx = x + dx[l]
                 ny = y + dy[l]
@@ -72,13 +71,19 @@ def bfs(a, b, c):
                         if day:
                             visited[nx][ny][z+1] = visited[x][y][z] + 1
                             q.append((nx, ny, z+1))
-                        else:
-                            visited[x][y][z] = visited[x][y][z] + 1
-                            q.append((x, y, z))
+                        # else:
+                        #     visited[x][y][z] = visited[x][y][z] + 1
+                        #     q.append((x, y, z))
+
+                    if not day and board[nx][ny] == 1:
+                        visited[x][y][z] = visited[x][y][z] + 1
+                        q.append((x, y, z))
         day = not day
     return -1
-
 n, m, k = map(int, input().split())
 board = [list(map(int, input())) for _ in range(n)]
 visited = [[[0] * (k+1) for _ in range(m)] for _ in range(n)]
-print(bfs(0, 0, 0))
+tmp = []
+
+bfs(0, 0, 0)
+print(visited[-1][-1])
