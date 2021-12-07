@@ -51,3 +51,21 @@ def subset(L, ss):
 subset(0, [])
 print('==========================')
 
+def next_perm(array):
+    i = len(array) - 1
+    while i > 0 and array[i-1] >= array[i]:
+        i -= 1
+    if i <= 0:
+        return False
+    j = len(array) - 1
+    while array[i-1] >= array[j]:
+        j -= 1
+    array[i-1], array[j] = array[j], array[i-1]
+
+    j = len(array) - 1
+    while i < j:
+        array[i], array[j] = array[j], array[i]
+        i += 1
+        j -= 1
+    return True
+
