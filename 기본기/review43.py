@@ -255,3 +255,76 @@
 #
 # print(*answer[::-1])
 ##############################################################
+# word_1 = input()
+# word_2 = input()
+#
+# n = len(word_1)
+# m = len(word_2)
+#
+# word_1 = ' ' + word_1
+# word_2 = ' ' + word_2
+#
+# dp = [[0] * (m+1) for _ in range(n+1)]
+#
+# for i in range(1, n+1):
+#     for j in range(1, m+1):
+#         if word_1[i] == word_2[j]:
+#             dp[i][j] = dp[i-1][j-1] + 1
+#         else:
+#             dp[i][j] = max(dp[i][j-1], dp[i-1][j])
+# print(dp[n][m])
+##############################################################
+# def rotate_matrix(array):
+#     row = len(array)
+#     col = len(array[0])
+#
+#     res = [[0] * row for _ in range(col)]
+#
+#     for r in range(row):
+#         for c in range(col):
+#             res[c][row-1-r] = array[r][c]
+#     return res
+##############################################################
+# array = [[1, 2, 3], [1, 2, 3], [1, 2, 3]]
+# array = list(zip(*array))
+# print(array)
+##############################################################
+# def rotate_matrix_2(array):
+#     changed = [k[::-1] for k in zip(*array)]
+#     return changed
+##############################################################
+# def quick_sort(array):
+#     if len(array) <= 1:
+#         return array
+#     left = []
+#     right = []
+#     pivot = array[0]
+#
+#     for i in range(1, len(array)):
+#         if array[i] < pivot:
+#             left.append(array[i])
+#         else:
+#             right.append(array[i])
+#     return quick_sort(left) + [pivot] + quick_sort(right)
+##############################################################
+# def solution(n, q):
+#     base = ''
+#     while n > 0:
+#         n, mod = divmod(n, q)
+#         base += str(mod)
+#     return base[::-1]
+#
+# print(int('121', 3)) # 10진수로 변환
+##############################################################
+# def is_prime(x):
+#     for i in  range(2, int(x**0.5)+1):
+#         if x % i == 0:
+#             return False
+#     else:
+#         return True
+# x = int(input())
+# if is_prime(x):
+#     print('소수')
+# else:
+#     print(-1)
+##############################################################
