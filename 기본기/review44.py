@@ -16,8 +16,7 @@
 #         visited[i] = False
 #
 # perm(0)
-# print('==========================')
-#
+########################################################
 # def comb(L, start):
 #     if L == n:
 #         print(*res)
@@ -27,9 +26,7 @@
 #         comb(L+1, i+1)
 #
 # comb(0, 0)
-# print('==========================')
-#
-#
+########################################################
 # def perm_with(L):
 #     if L == n:
 #         print(*res)
@@ -39,18 +36,16 @@
 #         perm_with(L+1)
 #
 # perm_with(0)
-# print('==========================')
-#
+########################################################
 # def subset(L, ss):
 #     if L == n:
-#         print(ss)
+#         print(*ss)
 #         return
 #     subset(L+1, ss + [array[L]])
 #     subset(L+1, ss)
 #
 # subset(0, [])
-# print('==========================')
-#
+########################################################
 # def next_perm(array):
 #     i = len(array) - 1
 #     while i > 0 and array[i-1] >= array[i]:
@@ -61,15 +56,13 @@
 #     while array[i-1] >= array[j]:
 #         j -= 1
 #     array[i-1], array[j] = array[j], array[i-1]
-#
 #     j = len(array) - 1
 #     while i < j:
 #         array[i], array[j] = array[j], array[i]
 #         i += 1
 #         j -= 1
 #     return True
-#
-##############################################################
+########################################################
 # def find_parent(parent, x):
 #     if parent[x] != x:
 #         parent[x] = find_parent(parent, parent[x])
@@ -84,16 +77,14 @@
 #         parent[a] = b
 #
 # v, e = map(int, input().split())
-#
 # parent = [0] * (v+1)
-#
 # for i in range(1, v+1):
 #     parent[i] = i
 #
 # for _ in range(e):
 #     a, b = map(int, input().split())
 #     union_parent(parent, a, b)
-##############################################################
+########################################################
 # def find_parent(parent, x):
 #     if parent[x] != x:
 #         parent[x] = find_parent(parent, parent[x])
@@ -114,8 +105,8 @@
 #     parent[i] = i
 #
 # edges = []
-# result = 0
 # cnt = 0
+# result = 0
 #
 # for _ in range(e):
 #     a, b, cost = map(int, input().split())
@@ -134,25 +125,24 @@
 #     print('MST')
 # else:
 #     print(-1)
-##############################################################
+########################################################
 # def binary_search(array, target, start, end):
 #     while start <= end:
 #         mid = (start + end) // 2
-#
 #         if array[mid] == target:
 #             return mid
 #         elif array[mid] < target:
 #             start = mid + 1
 #         else:
-#             end = mid - 1
+#             end = end - 1
 #     return None
-##############################################################
+########################################################
 # import heapq
 # import sys
 # INF = sys.maxsize
 # n, m = map(int, input().split())
 # start = int(input())
-# graph = [[]for _ in range(n+1)]
+# graph = [[] for _ in range(n+1)]
 # distance = [INF] * (n+1)
 #
 # for _ in range(m):
@@ -172,15 +162,13 @@
 #             if cost < distance[i[0]]:
 #                 distance[i[0]] = cost
 #                 heapq.heappush(q, (cost, i[0]))
-#
 # dijkstra(start)
-##############################################################
+########################################################
 # import sys
 # INF = sys.maxsize
 #
 # n, m = map(int, input().split())
-#
-# graph = [[INF] * (n+1) for _ in range(n+1)]
+# graph = [[INF] * (n+1) for _ in range(m+1)]
 #
 # for i in range(1, n+1):
 #     for j in range(1, n+1):
@@ -195,34 +183,33 @@
 #     for i in range(1, n+1):
 #         for j in range(1, n+1):
 #             graph[i][j] = min(graph[i][j], graph[i][k] + graph[k][j])
-##############################################################
+########################################################
 # n, limit = map(int, input().split())
-# dy = [0] * (limit+1)
+# dp = [0] * (limit + 1)
 #
 # for i in range(n):
 #     weight, value = map(int, input().split())
 #     for j in range(limit, weight-1, -1):
-#         dy[j] = max(dy[j], dy[j-weight] + value)
-##############################################################
+#         dp[j] = max(dp[j], dp[j-weight] + value)
+########################################################
 # n, limit = map(int, input().split())
-# dy = [0] * (limit+1)
+#
+# dp = [0] * (limit + 1)
 #
 # for i in range(n):
 #     weight, value = map(int, input().split())
 #     for j in range(weight, limit+1):
-#         dy[j] = max(dy[j], dy[j-weight] + value)
-##############################################################
+#         dp[j] = max(dp[j], dp[j-weight] + value)
+########################################################
 # array = [3, 1, 2, 4, 8, 6, 7]
 # n = len(array)
 # dp = [1] * n
-#
 # for i in range(1, n):
 #     for j in range(i):
 #         if array[j] < array[i]:
 #             dp[i] = max(dp[i], dp[j] + 1)
-#
 # result = max(dp)
-##############################################################
+########################################################
 # from bisect import bisect_left
 # array = [3, 1, 2, 4, 8, 6, 7]
 # n = len(array)
@@ -235,7 +222,7 @@
 #         dp[bisect_left(dp, array[i])] = array[i]
 #
 # result = len(dp)
-##############################################################
+########################################################
 # array = [3, 1, 2, 4, 8, 6, 7]
 # n = len(array)
 # dp = [1] * n
@@ -243,7 +230,7 @@
 # for i in range(1, n):
 #     for j in range(i):
 #         if array[j] < array[i]:
-#             dp[i] = max(dp[i], dp[j]+1)
+#             dp[i] = max(dp[i], dp[j] + 1)
 #
 # order = max(dp)
 # answer = []
@@ -254,7 +241,7 @@
 #         order -= 1
 #
 # print(*answer[::-1])
-##############################################################
+########################################################
 # word_1 = input()
 # word_2 = input()
 #
@@ -271,9 +258,9 @@
 #         if word_1[i] == word_2[j]:
 #             dp[i][j] = dp[i-1][j-1] + 1
 #         else:
-#             dp[i][j] = max(dp[i][j-1], dp[i-1][j])
+#             dp[i][j] = max(dp[i-1][j], dp[i][j-1])
 # print(dp[n][m])
-##############################################################
+########################################################
 # def rotate_matrix(array):
 #     row = len(array)
 #     col = len(array[0])
@@ -284,90 +271,12 @@
 #         for c in range(col):
 #             res[c][row-1-r] = array[r][c]
 #     return res
-##############################################################
+########################################################
 # array = [[1, 2, 3], [1, 2, 3], [1, 2, 3]]
 # array = list(zip(*array))
 # print(array)
-##############################################################
-# def rotate_matrix_2(array):
+########################################################
+# def rotate_matrix(array):
 #     changed = [k[::-1] for k in zip(*array)]
 #     return changed
-##############################################################
-# def quick_sort(array):
-#     if len(array) <= 1:
-#         return array
-#     left = []
-#     right = []
-#     pivot = array[0]
-#
-#     for i in range(1, len(array)):
-#         if array[i] < pivot:
-#             left.append(array[i])
-#         else:
-#             right.append(array[i])
-#     return quick_sort(left) + [pivot] + quick_sort(right)
-##############################################################
-# def solution(n, q):
-#     base = ''
-#     while n > 0:
-#         n, mod = divmod(n, q)
-#         base += str(mod)
-#     return base[::-1]
-#
-# print(int('121', 3)) # 10진수로 변환
-##############################################################
-# def is_prime(x):
-#     for i in  range(2, int(x**0.5)+1):
-#         if x % i == 0:
-#             return False
-#     else:
-#         return True
-# x = int(input())
-# if is_prime(x):
-#     print('소수')
-# else:
-#     print(-1)
-##############################################################
-# n = 1000
-# array = [True for i in range(n+1)]
-#
-# for i in range(2, int(n**0.5)+1):
-#     if array[i] == True:
-#         j = 2
-#         while i * j <= n:
-#             array[i * j] = False
-#             j += 1
-#
-# for i in range(2, n+1):
-#     if array[i]:
-#         print(i, end=' ')
-##############################################################
-# n = 5
-# m = 5
-# data = [1, 2, 3, 4, 5]
-#
-# cnt = 0
-# interval_sum = 0
-# end = 0
-#
-# for start in range(n):
-#     while interval_sum < m and end < n:
-#         interval_sum += data[end]
-#         end += 1
-#
-#     if interval_sum == m:
-#         cnt += 1
-#
-#     interval_sum -= data[start]
-#
-# print(cnt)
-##############################################################
-# array = [1, 2, 3]
-# n = len(array)
-#
-# for i in range(1<<n):
-#     for j in range(n):
-#         if i & (1<<j):
-#             print(array[j], end=' ')
-#     print()
-##############################################################
+########################################################
