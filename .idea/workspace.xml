@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/기본기/review14.py" line="51" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6c0c28d-a1f8-4f59-86a3-36617e5c92d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/기본기/review47.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/review47.py" afterDir="false" />
-    </list>
+    <list default="true" id="e6c0c28d-a1f8-4f59-86a3-36617e5c92d4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +36,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/기본기/review47.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="467">
-                  <caret line="124" column="10" lean-forward="true" selection-start-line="124" selection-start-column="10" selection-end-line="148" selection-end-column="17" />
+                <state relative-caret-position="-121">
+                  <caret line="124" column="14" lean-forward="true" selection-start-line="124" selection-start-column="14" selection-end-line="124" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -189,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="2200" />
     <option name="y" value="-3" />
     <option name="width" value="1940" />
@@ -408,7 +406,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="-1" width="2062" height="1126" extended-state="6" />
+    <frame x="1913" y="-1" width="2062" height="1126" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09580247" />
@@ -797,8 +795,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/기본기/review47.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="124" column="10" lean-forward="true" selection-start-line="124" selection-start-column="10" selection-end-line="148" selection-end-column="17" />
+        <state relative-caret-position="-121">
+          <caret line="124" column="14" lean-forward="true" selection-start-line="124" selection-start-column="14" selection-end-line="124" selection-end-column="14" />
         </state>
       </provider>
     </entry>
