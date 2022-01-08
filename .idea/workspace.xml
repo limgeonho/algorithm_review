@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6c0c28d-a1f8-4f59-86a3-36617e5c92d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/기본기/review62.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/기본기/review63.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,25 +18,25 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/기본기/review60.py">
+            <entry file="file://$PROJECT_DIR$/기본기/review61.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1965">
-                  <caret line="131" column="1" selection-end-line="159" />
+                <state relative-caret-position="2100">
+                  <caret line="140" column="38" selection-end-line="159" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/기본기/review61.py">
+            <entry file="file://$PROJECT_DIR$/기본기/review62.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="628">
-                  <caret line="140" column="38" lean-forward="true" selection-end-line="159" />
+                <state relative-caret-position="403">
+                  <caret line="125" column="12" selection-end-line="159" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/기본기/review62.py">
+            <entry file="file://$PROJECT_DIR$/기본기/review63.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="913">
                   <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
@@ -135,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BFS/5014_스타트링크.py" />
         <option value="$PROJECT_DIR$/기본기/review16.py" />
         <option value="$PROJECT_DIR$/BFS/9376_탈옥.py" />
         <option value="$PROJECT_DIR$/BFS/17086_아기상어2.py" />
@@ -186,6 +185,7 @@
         <option value="$PROJECT_DIR$/기본기/review60.py" />
         <option value="$PROJECT_DIR$/기본기/review61.py" />
         <option value="$PROJECT_DIR$/기본기/review62.py" />
+        <option value="$PROJECT_DIR$/기본기/review63.py" />
       </list>
     </option>
   </component>
@@ -441,13 +441,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BFS/17086_아기상어2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BFS/4991_로봇청소기.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -728,6 +721,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/기본기/review61.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="140" column="38" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BFS/01BFS/1261_알고스팟.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -784,14 +784,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/기본기/review61.py">
+    <entry file="file://$PROJECT_DIR$/기본기/review62.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="140" column="38" lean-forward="true" selection-end-line="159" />
+        <state relative-caret-position="403">
+          <caret line="125" column="12" selection-end-line="159" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/기본기/review62.py">
+    <entry file="file://$PROJECT_DIR$/기본기/review63.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="913">
           <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
