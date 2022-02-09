@@ -68,3 +68,127 @@ visited = [False] * len(array)
 #     print(array)
 # else:
 #     print(-1)
+
+# def find_parent(parent, x):
+#     if parent[x] != x:
+#         parent[x] = find_parent(parent, parent[x])
+#     return parent[x]
+#
+# def union_parent(parent, a, b):
+#     a = find_parent(parent, a)
+#     b = find_parent(parent, b)
+#     if a < b:
+#         parent[b] = a
+#     else:
+#         parent[a] = b
+#
+# v, e = map(int, input().split())
+# parent = [0] * (v+1)
+# for i in range(1, v+1):
+#     parent[i] = i
+#
+# for _ in range(e):
+#     a, b = map(int, input().split())
+#     union_parent(parent, a, b)
+#
+# def find_parent(parent, x):
+#     if parent[x] != x:
+#         parent[x] = find_parent(parent, parent[x])
+#     return parent[x]
+#
+# def union_parent(parent, a, b):
+#     a = find_parent(parent, a)
+#     b = find_parent(parent, b)
+#     if a < b:
+#         parent[b] = a
+#     else:
+#         parent[a] = b
+#
+# v, e = map(int, input().split())
+# parent = [0] * (v+1)
+# for i in range(1, v+1):
+#     parent[i] = i
+#
+# edges = []
+# cnt = 0
+# result = 0
+#
+# for _ in range(e):
+#     a, b, cost = map(int, input().split())
+#     edges.append((cost, a, b))
+# edges.sort()
+#
+# for edge in edges:
+#     cost, a, b = edge
+#     if find_parent(parent, a) != find_parent(parent, b):
+#         union_parent(parent, a, b)
+#         result += cost
+#         cnt += 1
+#
+# if cnt == v-1:
+#     print('MST')
+# else:
+#     print(-1)
+
+# def binary_search(array, target, start, end):
+#     while start <= end:
+#         mid = (start + end) // 2
+#         if array[mid] == target:
+#             return mid
+#         elif array[mid] < target:
+#             start = mid + 1
+#         else:
+#             end = mid - 1
+#     return None
+
+
+import heapq
+import sys
+INF = sys.maxsize
+n, m = map(int, input().split())
+start = int(input())
+graph = [[]for _ in range(n+1)]
+distance = [INF] * (n+1)
+
+for _ in range(m):
+    a, b, c = map(int, input().split())
+    graph[a].append((b, c))
+
+def dijkstra(start):
+    q = []
+    heapq.heappush(q, (0, start))
+    distance[start] = 0
+    while q:
+        dist, now = heapq.heappop(q)
+        if distance[now] < dist:
+            continue
+        for i in graph[now]:
+            cost = dist + i[1]
+            if cost < distance[i[0]]:
+                distance[i[0]] = cost
+                heapq.heappush(q, (cost, i[0]))
+
+dijkstra(start)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
