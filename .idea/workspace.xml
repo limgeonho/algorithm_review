@@ -6,70 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6c0c28d-a1f8-4f59-86a3-36617e5c92d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/extra/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/기본기/restart/review2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review10.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review11.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review12.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review13.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review14.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review15.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review15.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review16.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review16.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review17.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review17.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review18.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review18.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review19.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review19.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review20.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review20.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review21.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review21.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review22.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review22.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review23.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review23.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review24.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review24.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review25.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review25.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review26.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review26.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review27.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review27.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review28.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review28.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review29.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review29.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review30.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review30.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review31.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review31.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review32.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review32.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review33.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review33.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review34.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review34.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review35.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review35.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review36.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review36.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review37.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review37.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review38.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review38.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review39.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review39.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review4.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review40.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review40.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review41.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review41.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review42.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review42.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review43.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review43.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review44.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review44.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review45.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review45.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review46.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review46.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review47.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review47.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review48.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review48.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review49.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review49.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review5.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review50.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review50.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review51.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review51.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review52.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review52.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review53.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review53.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review54.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review54.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review55.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review55.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review56.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review56.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review57.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review57.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review58.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review58.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review59.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review59.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review6.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review60.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review60.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review61.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review61.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review62.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review62.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review63.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review63.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review64.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review64.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review7.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review8.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기본기/review9.py" beforeDir="false" afterPath="$PROJECT_DIR$/기본기/past/review9.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,11 +18,6 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/재귀/6603_로또.py">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/재귀/10972_다음순열.py">
               <provider selected="true" editor-type-id="text-editor" />
@@ -128,8 +60,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/기본기/restart/review2.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="478">
-                  <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+                <state relative-caret-position="328">
+                  <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DFS/11724_연결요소의개수.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
@@ -146,8 +87,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/기본기/restart/review1.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3045">
-                  <caret line="170" column="14" selection-start-line="170" selection-start-column="14" selection-end-line="170" selection-end-column="14" />
+                <state relative-caret-position="945">
+                  <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -221,11 +162,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1910" />
-    <option name="y" value="-4" />
-    <option name="width" value="1299" />
-    <option name="height" value="1409" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -242,6 +183,11 @@
             <path>
               <item name="복습용" type="b2602c69:ProjectViewProjectNode" />
               <item name="복습용" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="복습용" type="b2602c69:ProjectViewProjectNode" />
+              <item name="복습용" type="462c0819:PsiDirectoryNode" />
+              <item name="DFS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="복습용" type="b2602c69:ProjectViewProjectNode" />
@@ -422,13 +368,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29909366" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29909366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997986" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32930514" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3282981" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -467,13 +413,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/기본기/past/review32.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="14" selection-end-line="69" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/기본기/past/review33.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -773,10 +712,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DFS/11724_연결요소의개수.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/기본기/restart/review2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="41" column="17" lean-forward="true" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        <state relative-caret-position="328">
+          <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
         </state>
       </provider>
     </entry>
