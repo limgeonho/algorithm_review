@@ -160,6 +160,38 @@ LIS
 위상정렬
 
 
+===========================================
+딕셔너리 관련 
+https://wikidocs.net/16 페이지 참고
+
+딕셔너리 요소 삭제하기
+>>> del a[1] => key를 입력하면 해당 key, value 모두 삭제됨
+>>> a
+{2: 'b', 'name': 'pey', 3: [1, 2, 3]}
+
+.keys()
+>>> a = {'name': 'pey', 'phone': '0119993323', 'birth': '1118'}
+>>> a.keys()
+dict_keys(['name', 'phone', 'birth'])
+
+.values()
+>>> a.values()
+dict_values(['pey', '0119993323', '1118'])
+
+.items()
+>>> a.items()
+dict_items([('name', 'pey'), ('phone', '0119993323'), ('birth', '1118')])
+
+.get('찾으려는 값', '없다면 default값')
+>>> a.get('foo', 'bar')
+'bar'
+
+in => 해당 key가 딕셔너리에 있는지 확인
+>>> a = {'name':'pey', 'phone':'0119993323', 'birth': '1118'}
+>>> 'name' in a
+True
+>>> 'email' in a
+False
 
 
 
