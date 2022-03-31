@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="140815dd-446f-4507-a3c9-490b72ea2047" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/프로그래머스 복습.txt" beforeDir="false" afterPath="$PROJECT_DIR$/프로그래머스 복습.txt" afterDir="false" />
-    </list>
+    <list default="true" id="140815dd-446f-4507-a3c9-490b72ea2047" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +100,7 @@
       <recent name="C:\Users\임건호\Desktop\공부\복습용\inflearn\basic_DFS_BFS\1회차" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.경로탐색">
+  <component name="RunManager" selected="Python.수들의 조합">
     <configuration name="수들의 조합" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="inflearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,11 +235,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.경로탐색" />
         <item itemvalue="Python.인접행렬" />
         <item itemvalue="Python.수들의 조합" />
-        <item itemvalue="Python.조합구하기" />
-        <item itemvalue="Python.순열구하기" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +253,7 @@
       <updated>1647774571981</updated>
       <workItem from="1648384314978" duration="2154000" />
       <workItem from="1648577574383" duration="83000" />
-      <workItem from="1648577762333" duration="8267000" />
+      <workItem from="1648577762333" duration="8490000" />
     </task>
     <servers />
   </component>
