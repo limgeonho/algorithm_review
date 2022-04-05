@@ -30,4 +30,4 @@ https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html
 [RDBMS, NOSQL]
 https://khj93.tistory.com/entry/Database-RDBMS%EC%99%80-NOSQL-%EC%B0%A8%EC%9D%B4%EC%A0%90
 
-ss
+ssss
