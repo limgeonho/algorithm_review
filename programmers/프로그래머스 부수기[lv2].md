@@ -69,6 +69,33 @@
 
 
 
+- 구간합(Prefix Sum)
+
+  ```python
+  # 데이터의 개수
+  n = 5
+  data = [10, 20, 30, 40, 50]
+  
+  summary = 0
+  prefix_sum = [0]
+  
+  for x in data:
+      summary += x
+      prefix_sum.append(summary)
+  
+  left = 3
+  right = 4
+  
+  # 핵심 prefix_sum[R] - prefix_sum[L-1]
+  print(prefix_sum[right] - prefix_sum[left-1])
+  ```
+
+
+
+- 해당 문제가 왜 DP문제인지 알아내는 과정이 중요함
+
+  
+
 - 자료구조 stack, queue, deque 항상 활용고민하기
 
 
@@ -77,5 +104,6 @@
 
 ## 2. Level 2 에서 다시 풀어볼 만한 문제
 
-- 
+- 땅따먹기 - DP... => 브루트 포스인줄 알았지만.. 아님
+- 가장 큰 정사각형 찾기 - DP
 
