@@ -45,7 +45,35 @@
   return answer
   ```
 
+
+
+- 투포인터 알고리즘
+
+  ```python
+  n = 5
+  target = 5
+  data = [1, 2, 3, 4, 5]
   
+  cnt = 0
+  interval = 0
+  end = 0
+  
+  for start in range(n):
+      while interval < target and end < n:
+          interval += data[end]
+          end += 1
+      if interval == target:
+          cnt += 1
+      interval -= data[start]
+  ```
+
+
+
+- 자료구조 stack, queue, deque 항상 활용고민하기
+
+
+
+
 
 ## 2. Level 2 에서 다시 풀어볼 만한 문제
 
