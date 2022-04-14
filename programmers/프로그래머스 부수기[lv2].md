@@ -100,10 +100,88 @@
 
 
 
+- 리스트에서 원하는 요소의 index 찾는 방법
+
+  => list.index(value)
+
+  => 만약에 존재하지 않는 다면 error 발생함
+
+
+
+- 원하는 목적지로 이동하는 문제의 경우 
+
+  => 목적지에서 출발지로 거꾸로 가는 경우를 생각하기
+
+
+
+- 2차원 리스트를 1차원 리스트로 만들기(row major order)
+
+  ```python
+  for i in range(n*n):
+      x = i // n	# 행 번호
+      y = i % n	# 열 번호
+  ```
+
+
+
+- 특정 리스트 형태 만들기
+
+  ```python
+  arr = [[1, 2, 3]
+         [2, 2, 3]
+         [3, 3, 3]]
+  
+  n = 3
+  answer = []
+  for i in range(n*n):
+      x = i // n
+      y = i % n
+      answer.append(max(x, y) +1)
+  
+  return answer
+  ```
+
+
+
+- 문자열의 특정 문자를 원하는 문자로 바꾸는 방법
+
+  => replace함수 
+
+  => s.replace('0', '1')
+
+  => s라는 문자열안에 있는 모든 0을 1로 바꾼다
+
+
+
+- 중복순열 구하기 + product
+
+  ```python
+  # 기존의 중복순열 구하는 방법
+  arr = [1, 2, 3, 4, 5]
+  res = [0] * n
+  
+  def perm_with(L):
+      if L == n:
+          print(res)
+          return
+      for i in range(len(arr)):
+          res[L] = arr[i]
+   
+  perm_with(0)
+  
+  #############################################################
+  # itertools product 사용
+  from itertools import product
+  list(product(arr, repeat = n))
+  # 장점은 구현이 간단하고 중복순열의 인자의 개수를 간편하게 조절할 수 있다.
+  ```
+
+  
+
 
 
 ## 2. Level 2 에서 다시 풀어볼 만한 문제
 
 - 땅따먹기 - DP... => 브루트 포스인줄 알았지만.. 아님
 - 가장 큰 정사각형 찾기 - DP
-
+- 모음사전 - 중복순열
