@@ -176,6 +176,29 @@
   # 장점은 구현이 간단하고 중복순열의 인자의 개수를 간편하게 조절할 수 있다.
   ```
 
+
+
+- union-find
+
+  ```python
+  parent = [0] * (n+1)
+  for i in range(1, n+1):
+      parent[i] = i
+  
+  def find_parent(parent, x):
+      if parent[x] != x:
+          parent[x] = find_parent(parent, parent[x])
+      return parent[x]
+  
+  def union(parent, a, b):
+      a = find_parent(parent, a)
+      b = find_parent(parent, b)
+      if a < b:
+          parent[b] = a
+      else:
+          parent[a] = b
+  ```
+
   
 
 
@@ -185,3 +208,4 @@
 - 땅따먹기 - DP... => 브루트 포스인줄 알았지만.. 아님
 - 가장 큰 정사각형 찾기 - DP
 - 모음사전 - 중복순열
+- 전력망 둘로 나누기 - union-find로 풀 수 있을 것 같은데...
