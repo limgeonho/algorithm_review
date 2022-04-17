@@ -199,9 +199,116 @@
           parent[a] = b
   ```
 
+
+
+- bfs 탐색의 기본형태
+
+  ```python
+  from collections import deque
   
+  def bfs(board, visited, start):
+      q = deque()
+      q.append(start)
+      visited[start] = True
+      while q:
+          now = q.popleft()
+          for nxt in board[now]:
+              if not visited[nxt]:
+                  q.append(nxt)
+                  visited[nxt] = True
+                  # 추가 연산
+                  
+  bfs(board, visited, start)
+  ```
 
 
+
+- pop(0) 보다 popleft()가 압도적으로 시간이 빠르다
+
+
+
+- 탐욕법
+
+  => ~~~를 최소로~
+
+  =>  정렬과 밀접한 연관
+
+  => 해당문제가 탐욕법 문제라면 출제자가 문제를 낼때 최적해가 나올 수 있도록 이미 설계해 놓은 것임
+
+  => 문제 풀이를 위한 최소한의 아이디어를 떠올리고 이것이 정당한지 검토할 수 있어야 한다
+
+
+
+- 소수점 자르는 방법(f-string에서 소수점 관리하기)
+
+  => print(f"{number:.nf}") 
+
+  => 로 number의 소수점 n+1번째 자릿수에서 반올림해서 소수점 n번째 자릿수까지 출력함으로써 소수점을 관리할 수 있다.
+
+  ```python
+  print(f"{1.23456:.2f}") 
+  # 소수점 3번째에서 반올림해서 2번째 자릿수까지만 출력하겠다.
+  ```
+
+
+
+- 이분탐색
+
+  ```python
+  def binary_search(array, target, start, end):
+      while start <= end:
+          mid = (start + end) // 2
+          
+          if mid == target:
+              return mid
+          elif array[mid] < target:
+              start = mid + 1
+          else:
+              end = mid - 1
+      return None
+  
+  ##################################################
+  from bisect import bisect_right, bisect_left
+  # 각각 원하는 값이 들어갈때 왼쪽 위치와 오른쪽 위치를 반환
+  bisect_right(array, value) => 들어갈 위치의 오른쪽 index를 return
+  bisect_left(array, value) => 들어갈 위치의 왼쪽 index를 return
+  ```
+
+
+
+- 다이나믹프로그래밍
+
+  => 코테에서 과연 해당 문제가 DP문제인지 파악하는 방법
+
+  => 그리디, 구현, 완전 탐색 등의 아이디어로 해결되지 않을 때 DP인지 의심하기
+
+  => 해당 문제가 부분문제로 구성되어 있는지 확인
+
+  => 부분문제? => 하나의 문제가 같은 과정의 똑같은 문제로 반복될 수 있는지
+
+  => 해당 문제의 DP테이블 값을 구할 때 같은 과정을 계속 반복하는 경우 찾기
+
+  => DP테이블에서 해당 값 == 해당 값까지 왔을 때의 경우(이전 값들도 동일한 과정임)
+
+  => 이를 통해 DP테이블을 만들어 놓고 매번 갱신하면서 채워나감
+
+  => DP에는 LIS, Knapsack, 플로이드-워샬 알고리즘이 있다.(기본적으로 암기해줘야함)
+
+
+
+- 분할정복
+
+
+
+- 다익스트라 알고리즘, 플로이드워샬
+
+
+
+- 위상정렬
+
+
+
+- 크루스칼 알고리즘
 
 ## 2. Level 2 에서 다시 풀어볼 만한 문제
 
