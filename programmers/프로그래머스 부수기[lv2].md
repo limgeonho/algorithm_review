@@ -320,6 +320,94 @@
 
   => 힙은 heappush, heappop, heapify(list)
 
+
+
+- defaultdict
+
+  => dict인데 기본 세팅을 설정할 수 있는 dict
+
+  ```python
+  from collections import defaultdict
+  list_dict = defaultdict(list)
+  
+  for key, value in clothes:
+  	list_dict[key].append(value)
+  
+  # list_dict = {'key' : [value1, value2, value3]}
+  ```
+
+
+
+- deque 회전시키기 => rotate()
+
+  => deque.rotate(방향)
+
+  ```python
+  from collections import deque
+  
+  q = deque([1, 2, 3, 4, 5])
+  
+  q.rotate(방향과 칸)
+  
+  # 오른쪽으로 1칸 이동 
+  q.rotate(1)
+  # q = [5, 1, 2, 3, 4]
+  
+  # 왼쪽으로 1칸 이동 
+  q.rotate(-1)
+  # q = [2, 3, 4, 5, 1]
+  
+  # rotate()를 사용하지 않고 deque이기 때문에
+  # tmp = q.popleft()		q.pop()
+  # q.append(tmp)			q.appendleft(tmp)
+  # 해도 같음
+  # 하지만 rotate()의 장점은 => 방향 + 원하는 칸의 개수까지 한 번에 설정 가능하다는 점!
+  ```
+
+
+
+- sort() 함수 + lambda
+
+  => python에서 대표적으로 정렬하는 함수
+
+  ```python
+  # 오름차순 정렬
+  list.sort()
+  
+  # 내림차순 정렬
+  list.sort(reverse=True)
+  
+  # lambda를 사용해서 다양한 조건 추가
+  list.sort(key=lambda x:x[0])
+  
+  # 여러개 조건 추가
+  list.sort(reverse=True, key=lambda x:(len(x), x[1]))
+  
+  
+  # 딕셔너리 정렬 => money의 value를 기준으로 오름차순 정렬
+  money = { "백원" : 100, "1$" : 1200, "10$" : 12000, "오천원" : 5000, "만원" : 10000, "100$" : 120000, "오만원" : 50000 } 
+  
+  # => money.items()를 추가해서 key와 value의 튜플로 x를 받아내는 것이 핵심
+  money = sorted(money.items(), key = lambda x : x[1]) 
+  
+  # 출력 값 
+  [('백원', 100), ('1$', 1200), ('오천원', 5000), ('만원', 10000), ('10$', 12000), ('오만원', 50000), ('100$', 120000)]
+  ```
+
+
+
+- 숫자를 문자열로 바꾸어서 비교
+
+  ```python
+  # [3, 30, 34, 5, 9] => [9, 5, 34, 3, 30]으로 만드는 방법
+  # 해당 value가 최대 1000이라고 가정할 때 각각의 value에 *3을 해서 3자리로 맞춰준다. 
+  numbers.sort(reverse=True, key=lambda x:x*3)
+  ```
+
+  
+
+
+
 ## 2. Level 2 에서 다시 풀어볼 만한 문제
 
 - 땅따먹기 - DP... => 브루트 포스인줄 알았지만.. 아님
@@ -327,3 +415,4 @@
 - 모음사전 - 중복순열
 - 전력망 둘로 나누기 - union-find로 풀 수 있을 것 같은데...
 - 큰 수 만들기 - stack자료구조
+- 조이스틱 - 문제는 탐욕법이라는데... 완탐...
