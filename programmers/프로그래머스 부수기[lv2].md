@@ -318,9 +318,15 @@
 
   => 큐는 popleft
 
-  => 힙은 heappush, heappop, heapify(list)
-
-
+  => 힙은 heappush, heappop, heapify(list) + 최대, 최소 값 구할 때 활용방안 생각하기
+  
+  ```python
+  import heapq
+  tmp = [1, 5, 7, 2, 4, 6]
+  heapq.heapify(tmp) # => tmp리스트를 heap으로 만들어버림 + return 없음
+  ```
+  
+  
 
 - defaultdict
 
@@ -404,9 +410,105 @@
   numbers.sort(reverse=True, key=lambda x:x*3)
   ```
 
+
+
+- 문자열 조건으로 찾기(startswith(), endswith(), find())
+
+  ```python
+  s = 'abcdefg'
   
+  # s.find('value')
+  # => 찾으면 해당 idx 없으면 -1
+  s.find('a') => 0
+  
+  # s.startswith('value')
+  # => 'value'로 시작하면 True / False
+  s.startswith('a') => True
+  
+  # s.endswith('value')
+  # => 'value'로 끝나면 True / False
+  s.endswith('a') => False
+  ```
 
 
+
+- enumerate(list) 활용하기
+
+  => enumerate(list)는 해당 리스트의 값과 인덱스 값을 동시에 보여준다.
+
+  => for idx, value in enumerate(list):
+
+
+
+- for ~ else ~ 구문
+
+  => for문 안에서 break로 멈추지 않아야 else문이 작동함
+
+  => 따라서, else문을 사용하기 위해서는 for문 안에 break가 있어야 함
+
+
+
+- stack 자료구조
+
+  => 생각보다 많이 등장함
+
+  => stack.append()해서 새로운 값과 stack[-1]를 비교하고 stack.pop()하는 형태의 문제
+
+  => 문자열이나 리스트의 값을 하나씩 돌면서 앞, 뒤 값과 비교해서 처리해야하는 문제 style
+
+
+
+- heap 자료구조
+
+  => 최대, 최소 값을 매번 구해야하는 경우 사용하면 시간을 줄일 수 있음
+
+  => sort()나 min, max를 사용하는 것보다 heap자료에 리스트를 넣는다
+
+  => heapq.heapify(list) => heap으로 바뀜
+
+  => 해당 heap으로 바뀐 리스트 tmp는 매번 알아서 최소, 최대 힙으로 정렬된다.
+
+  => 따라서 가장 작은 값은 min(tmp)가 아니라 그냥 => tmp[0]이 가장 작은 값이다(왜? 알아서 정렬됨)
+
+
+
+- subset()
+
+  => 부분집합 구하기
+
+  => 더하거나 빼거나 / 추가하거나 추가하지 않거나 
+
+  => 원하는 Level까지 내려가면서 선택해야하는 모든 경우
+
+  ```python
+  # subset
+  arr = [1, 2, 3]
+  def subset(L, ss):
+      if L == len(arr):
+          print(*ss)
+          return
+      else:
+          subset(L+1, ss + [arr[L]])
+          subset(L+1, ss)
+  
+  subset(0, [])
+  ```
+
+
+
+- 2차원 리스트를 1 ~ n 으로 초기화 하기
+
+  ```python
+  board = [[0] * columns for _ in range(rows)]
+  value = 0
+  
+  for i in range(rows):
+      for j in range(columns):    
+          value += 1
+          board[i][j] = value
+  ```
+
+   
 
 ## 2. Level 2 에서 다시 풀어볼 만한 문제
 
@@ -416,3 +518,8 @@
 - 전력망 둘로 나누기 - union-find로 풀 수 있을 것 같은데...
 - 큰 수 만들기 - stack자료구조
 - 조이스틱 - 문제는 탐욕법이라는데... 완탐...
+- 가장 큰 수 - 특이한 문제
+- 124 나라의 숫자 - 진법 변환과 비슷...
+- 멀쩡한 사각형 - 그냥 수학문제
+- 기능 개발 - 스택/큐 문제라고 하는데 글세... => 워하는 값이 나오면 모아놨다가 누적하는 문제
+- 타겟 넘버 - 기본적인 subset문제
