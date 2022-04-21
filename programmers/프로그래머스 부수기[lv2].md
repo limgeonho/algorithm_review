@@ -509,6 +509,70 @@
   ```
 
    
+  
+- 거리를 기록할 경우는 (출발-도착) + (도착+출발) 두 방향 전부 기록해준다
+
+  => 추가적으로 중복을 제거할 때는 set()을 활용한다.
+
+
+
+- 딕셔너리에서 items() 사용하기
+
+  => for key, value in dict.items():
+
+  => 으로 각각의 key와 value 쌍으로 처리 가능
+
+
+
+- 딕서너리에서 sort() 하는 법
+
+  => tmp  = sorted(dict.items(), key=lambda x: x[1], reverse=True)
+
+
+
+- 하나의 문자열을 여러개로 분류할 때
+
+  => 2 덩어리
+
+  => if else
+
+  => 3 덩어리
+
+  => if elif else
+
+  ```python
+  # 카카오 - 문자열 정렬
+      for file in files:
+          head = ''
+          number = ''
+          tail = ''
+          check = False
+          for i in range(len(file)):
+              if file[i].isdigit():
+                  number += file[i]
+                  check = True
+              elif not check:
+                  head += file[i]
+              else:
+                  tail = file[i:]
+                  break
+                    
+          sliced.append((head, number, tail))
+  ```
+
+
+
+- 여러 개의 조건으로 sort() 할때
+
+  => list.sort(key=lambda x: (x[0], x[1]))
+
+  => 이때 x[0]에서 같은 값이 나오는 경우만 x[1]조건이 적용된다.
+
+  => 추가적으로 sort()안에서도 함수 적용가능
+
+  => list.sort(key=lambda x:(x[0].upper(), int(x[1])))
+
+
 
 ## 2. Level 2 에서 다시 풀어볼 만한 문제
 
@@ -523,3 +587,8 @@
 - 멀쩡한 사각형 - 그냥 수학문제
 - 기능 개발 - 스택/큐 문제라고 하는데 글세... => 워하는 값이 나오면 모아놨다가 누적하는 문제
 - 타겟 넘버 - 기본적인 subset문제
+
+
+
+- 카카오
+  - 문자열 정렬 - 여러개의 조건으로 sort()
