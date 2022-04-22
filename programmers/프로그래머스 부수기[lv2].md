@@ -619,6 +619,8 @@
   => clear() - 집합에 있는 모든 값을 삭제
 
   => &, intersection -  교집합
+  
+  => set1.issubset(set2) - set1이 set2의 부분집합인지 True / False
 
 ## 2. Level 2 에서 다시 풀어볼 만한 문제
 
