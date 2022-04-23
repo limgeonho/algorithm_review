@@ -1,4 +1,4 @@
-ccccimport math
+import math
 def change(x, y):
     tmp1, tmp2 = map(int, x.split(':'))
     tmp3, tmp4 = map(int, y.split(':'))
