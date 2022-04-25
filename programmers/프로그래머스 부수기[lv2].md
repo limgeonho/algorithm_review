@@ -621,8 +621,28 @@
   => &, intersection -  교집합
   
   => set1.issubset(set2) - set1이 set2의 부분집합인지 True / False
-  
-  
+
+
+
+- 중복조합
+
+  => 지금까지 itertools를 사용하면서 permutations, combinations, product는 많이 사용했지만
+
+  => 중복조합은 사용한 적이 없음
+
+  => from itertools import combinations_with_replacement 로 사용
+
+  => for comb in list(combinations_with_replacement(list, n))
+
+
+
+- enumterate안에 zip넣기
+
+  => 두 개의 list의 값들을 동시에 꺼낼때!!!(생각보다 많이 씀)
+
+  => 이때 두 list는 서로 크기가 같아야 한다!!(enumterate의 idx 값 때문)
+
+  => for i, (a, b) in enumerate(zip(listA, listB))
 
 ## 2. Level 2 에서 다시 풀어볼 만한 문제
 
@@ -645,3 +665,4 @@
   - 문자열 정렬 - 여러개의 조건으로 sort()
   - 순위 검색 - 효율성 문제 때문에..!! 해싱 + 이분탐색
   - 후보키 - CS관련 : 유일성과 최소성에 대해!!
+  - 양궁대회 - 완전탐색, 중복조합
