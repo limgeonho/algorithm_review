@@ -63,9 +63,56 @@
 
   => [0] 은 오름차순 + [1] 은 내림차순
 
+
+
+- 크루스칼 알고리즘
+
+  => MST를 구하는 알고리즘
+
+  ```python
+  # 크루스칼 알고리즘
+  def find_parent(parent, x):
+      if parent[x] != x:
+          parent[x] = find_parent(parent, parent[x])
+      return parent[x]
+  
+  def union_parent(parent, a, b):
+      a = find_parent(parent, a)
+      b = find_parent(parent, b)
+      if a < b:
+          parent[b] = a
+      else:
+          parent[a] = b   
+  
+  parent = [0] * n
+  for i in range(n):
+      parent[i] = i
+  answer = 0
+      
+  for cost in costs:
+      a, b, co = cost
+      if find_parent(parent, a) != find_parent(parent, b):
+          union_parent(parent, a, b)
+          answer += co
+  
+  return answer
+  
+  ```
+
+
+
+- 그리디 알고리즘
+
+  => 그리디는 정렬과 밀접한 연관이 있기 때문에
+
+  => 그리디라고 판단되면 다양한 조건으로 정렬해보자!!
+
+  => 문제에서 항상 최소~ 최대~ 몇 개를 구하시오 => 이런식으로 문제가 나옴
+
 ## 2. Level 3 에서 다시 풀어볼 만한 문제
 
 - 여행경로 - 방법은 맞은 것 같은데...
 - 야근 지수 - 힙
 - 줄 서는 방법 - 라이브러리 쓰면 시간초과
 - 입국 심사 - 이분탐색
+- 단속 카메라 - 그리디, 정렬과 밀접한 연관..
