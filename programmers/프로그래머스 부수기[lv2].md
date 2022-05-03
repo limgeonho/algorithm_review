@@ -166,6 +166,7 @@
           return
       for i in range(len(arr)):
           res[L] = arr[i]
+          perm_with(L+1)
    
   perm_with(0)
   
@@ -672,7 +673,7 @@
 
 
 
-- 하나의 문자열안에서 문자를 돌면서 원하는 조건을 찾아낼 때는 역시
+- 하나의 문자열 안에서 문자를 돌면서 원하는 조건을 찾아낼 때는 역시
 
   => stack 를 이용한다!
 

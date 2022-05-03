@@ -131,7 +131,29 @@
 
 
 
-- ds
+- 예전부터 코딩테스트에서 자주 나오는 문제
+
+  => 문자열이 주어지고 앞뒤 같은 문자가 나오면 압축하는 문제
+
+  ```python
+  text = 'aaaabbcccdeef'
+  answer = ''
+  
+  text += ''
+  cnt = 1
+  for i in range(len(text) - 1):
+      if text[i] == text[i+1]:
+          cnt += 1
+      else:
+          answer += text[i]
+          if cnt > 1:
+              answer += (text[i] + str(cnt))
+              cnt = 1
+              
+  return answer # a4b2c3de2f
+  ```
+
+  
 
 ## 2. Level 3 에서 다시 풀어볼 만한 문제
 
