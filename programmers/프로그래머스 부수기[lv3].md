@@ -168,6 +168,36 @@
 
   => 쉽게 생각하기
 
+
+
+- knapsack 알고리즘
+
+  ```python
+  # 물건을 무한 개 사용할 수 있는 경우
+  n, limit = map(int, input().split())
+  dp = [0] * (limit + 1)
+  
+  for i in range(n):
+      weight, value = map(int, input().split())
+      for j in range(limit, weight-1, -1):
+          dp[j] = max(dp[j], dp[j - weight] + value)
+  
+  return dp[limit]
+  
+  # 물건을 1개 사용할 수 있는 경우
+  n, limit = map(int, input().split())
+  dp = [0] * (limit + 1)
+  
+  for i in range(n):
+      weight, value = map(int, input().split())
+      for j in range(weight, limit + 1):
+          dp[j] = max(dp[j], dp[j - weight] + value)
+        
+  return dp[limit]
+  ```
+
+  
+
 ## 2. Level 3 에서 다시 풀어볼 만한 문제
 
 - 여행경로 - 방법은 맞은 것 같은데...
