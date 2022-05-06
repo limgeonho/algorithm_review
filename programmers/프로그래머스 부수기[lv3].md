@@ -196,7 +196,12 @@
   return dp[limit]
   ```
 
-  
+
+
+
+- 순열, 조합, 중복순열, 중복조합
+
+  ![1](https://user-images.githubusercontent.com/73927750/167124947-7cbc4147-83df-4496-863a-47884e6f510d.png)
 
 ## 2. Level 3 에서 다시 풀어볼 만한 문제
 
