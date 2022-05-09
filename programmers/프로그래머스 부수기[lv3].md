@@ -203,6 +203,66 @@
 
   ![1](https://user-images.githubusercontent.com/73927750/167124947-7cbc4147-83df-4496-863a-47884e6f510d.png)
 
+
+
+- imos 기법 - 카카오 - 파괴되지 않은 건물
+
+  => 2차원 리스트를 순회하면서 특정 영역(사각형 모양)의 값을 전부 바꾸는 행위를 반복할 때
+
+  => 직접 2차원 리스트를 순회하면서 매번 update하면 시간이 매우 많이 걸린다
+
+  => 2차원 리스트를 전체 1번만 순회하면서도 전체를 한 번에 update할 수 있다
+
+  => how? 
+
+  => imos 기법!!!!(누적합)
+
+  => imos 기법은 2차원 리스트에서 원하는 구역에 추가할 값을 해당 시작점과 끝점에만 표시를 전부 다 수행하고
+
+  => 마지막에 최종적으로 전체 2차원 리스트를 돌면서 누적합을 구하는 방법임
+
+  => 따라서, (시작점, 끝점) 표시만 하고 전체 2차원 리스트는 1번만 순회(행으로, 열로)하면 전체 쿼리를 실행한 결과를 알 수 있다.
+
+  ![imos](https://user-images.githubusercontent.com/73927750/167453998-d2ba6e7f-d5ee-4725-a0bd-4748f3cf7476.png)
+
+  ```python
+  # imos 기법
+  def imos(changed, skills):
+      for skill in skills:
+          r1 = skill[1]
+          c1 = skill[2]
+          r2 = skill[3]
+          c2 = skill[4]
+          degree = skill[5]
+      
+      # ======== imos ======== 
+          if skill[0] == 1:
+              changed[r1][c1] -= degree
+              changed[r1][c2+1] += degree
+              changed[r2+1][c1] += degree
+              changed[r2+1][c2+1] -= degree
+          else:
+              changed[r1][c1] += degree
+              changed[r1][c2+1] -= degree
+              changed[r2+1][c1] -= degree
+              changed[r2+1][c2+1] += degree
+      
+      # 행 sweep
+      for r in range(n+1):
+          for c in range(1, m+1):
+              changed[r][c] += changed[r][c-1]
+      
+      # 열 sweep
+      for c in range(m+1):
+          for r in range(1, n+1):
+              changed[r][c] += changed[r-1][c]
+      
+      # ======================
+      return
+  ```
+
+  
+
 ## 2. Level 3 에서 다시 풀어볼 만한 문제
 
 - 여행경로 - 방법은 맞은 것 같은데...
@@ -211,3 +271,5 @@
 - 입국 심사 - 이분탐색
 - 단속 카메라 - 그리디, 정렬과 밀접한 연관..
 - 정수 삼각형 - DP
+  - 카카오
+    - 파괴되지 않은 건물 - imos
