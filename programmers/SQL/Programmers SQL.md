@@ -178,3 +178,40 @@
   %s
   ```
 
+
+
+## 7. 기타 문제
+
+- 헤비 유저가 소유한 장소
+
+  ```mysql
+  SELECT * FROM PLACES
+  WHERE host_id in 
+      (SELECT host_id
+      FROM places
+      GROUP BY host_id
+      HAVING COUNT(host_id) >= 2)
+  ORDER BY id
+  ```
+
+- 우유와 요거트가 담긴 장바구니
+
+  ```mysql
+  SELECT A.cart_id
+  FROM cart_products A
+  INNER JOIN cart_products B
+  ON A.cart_id = B.cart_id
+  WHERE A.name = 'milk' AND B.name = 'Yogurt'
+  ORDER BY A.id
+  
+  ################################################################
+  SELECT DISTINCT CART_ID
+  FROM CART_PRODUCTS
+  WHERE NAME = 'Milk' AND 
+  CART_ID IN (SELECT DISTINCT CART_ID
+              FROM CART_PRODUCTS
+              WHERE NAME = 'Yogurt')
+  ORDER BY CART_ID
+  ```
+
+  
