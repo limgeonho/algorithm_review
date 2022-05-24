@@ -266,7 +266,19 @@
 
 - 배열 회전하기
 
-  arr = list(map(list, zip(*arr)))[::-1]
+  1. ```python
+     arr = list(map(list, zip(*arr)))[::-1]
+     ```
+  
+  2. ```python
+     def rotate_matrix_by_90_degree_2(a):
+     
+         changed = [k[::-1] for k in zip(*a)]
+     
+         return changed
+     ```
+  
+     
   
 - 그리디
 
