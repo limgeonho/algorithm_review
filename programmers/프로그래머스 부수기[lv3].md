@@ -267,20 +267,38 @@
 - 배열 회전하기
 
   1. ```python
+     # 반시계 방향
      arr = list(map(list, zip(*arr)))[::-1]
      ```
-  
+     
   2. ```python
+     # 시계 방향
      def rotate_matrix_by_90_degree_2(a):
      
-         changed = [k[::-1] for k in zip(*a)]
+         changed = [list(k) for k in zip(*a[::-1])]
      
          return changed
      ```
-  
+     
      
   
 - 그리디 시작
+
+  - 진행중인 프로그램 전체를 한 번에 종료할 때
+
+    ```python
+    import sys
+    sys.exit()
+    ```
+
+  - 몫과 나머지를 동시에 활용할때(divmod() 활용하기)
+
+    ```python
+    # n // a, n % a
+    # => divmod(n, a)
+    ```
+
+    
 
 - 완전탐색
 
