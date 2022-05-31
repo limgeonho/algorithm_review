@@ -1,3 +1,5 @@
+# 해당하는 조건에 맞게 분기
+
 def check(ans, cn):
   while True:
     if cn == 0:
