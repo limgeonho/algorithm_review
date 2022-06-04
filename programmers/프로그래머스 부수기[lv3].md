@@ -173,7 +173,7 @@
 - knapsack 알고리즘
 
   ```python
-  # 물건을 무한 개 사용할 수 있는 경우
+  # 물건을 1개 사용할 수 있는 경우
   n, limit = map(int, input().split())
   dp = [0] * (limit + 1)
   
@@ -184,7 +184,7 @@
   
   return dp[limit]
   
-  # 물건을 1개 사용할 수 있는 경우
+  # 물건을 무한 개 사용할 수 있는 경우
   n, limit = map(int, input().split())
   dp = [0] * (limit + 1)
   
